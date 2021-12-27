@@ -1,0 +1,118 @@
+body {
+    background: rgb(255, 255, 255);
+            background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(240, 241, 245, 1) 39%, rgba(227, 227, 227, 1) 55%, rgba(180, 182, 185, 1) 100%);
+            /*background-color:#ecacd9;8*/
+            font-size: 16px;
+            margin: 8px 243px;
+        }
+		
+#content {
+	color: #ccc;
+	}
+#second {
+    background-color: aquamarine;
+}    
+#fourth {
+	clear: left;
+    width: 20em;
+    color: rgb(255, 251, 251);
+    background: rgb(81, 81, 231);
+    padding: 5em;
+    margin: 5em 35em;
+    font-size: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+em{
+    color: black; 
+    text-decoration: line-through rgb(131, 24, 24);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighterd;
+}
+span{
+    background: rgb(15, 114, 73);
+    width: 600;
+    padding: 0.6em;
+}
+div {
+  background-color: rgb(36, 185, 196);
+  padding: 20px;
+  display: none;
+}
+  
+span:hover + div {
+  display: block;
+}
+header,
+nav,
+section {
+    width: 700px;
+    margin: 0 auto;
+
+}
+nav {
+
+    color: #000;
+    padding-top: 30px;
+
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+nav a:hover {
+
+    text-decoration: underline;
+}
+
+hr {
+    width: 500px;
+}
+
+header {
+    height: 150px;
+    padding-top: 50px;
+}
+.p1 {
+    text-align: center;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0 auto;
+}
+.p2 {
+    background-color: cadetblue;
+}
+a.ex3:hover, a.ex3:active {
+    background: rgb(45, 197, 139);
+    text-decoration: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+a.ex2:hover, a.ex2:active {
+    font-size: 150%;
+    color: darkred;
+}
+a.ex1:hover, a.ex1:active {
+    color: red;
+    
+}
+a:hover {
+    background-color: yellow;
+  }
+
+

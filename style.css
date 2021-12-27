@@ -1,0 +1,138 @@
+body {
+    background: rgb(255, 255, 255);
+            background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(240, 241, 245, 1) 39%, rgba(227, 227, 227, 1) 55%, rgba(180, 182, 185, 1) 100%);
+            /*background-color:#ecacd9;8*/
+            color: #555;
+            font-size: 16px;
+        }
+		
+#content {
+	color: #ccc;
+	}
+		
+#fourth {
+	clear: left;
+	border: 4px solid rgb(53, 87, 199);
+    width: 20em;
+    color: rgb(114, 7, 7);
+    background: rgb(54, 230, 163);
+    padding: 2em;
+    margin: 5em 20em;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+	}
+
+i{
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px rgb(252, 244, 244);
+	}
+em{
+    color: black; 
+    text-decoration: line-through rgb(131, 24, 24);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighterd;
+}
+span{
+    background: saddlebrown;
+    width: 600;
+    padding: 0.4em;
+}
+h3 {
+    color: rgb(0, 0, 0)
+    font-weight: lighter;
+    color: white;
+    font-size: 20px;;
+}
+.p1{
+    background: rgb(119, 19, 139);
+    width: 600;
+    padding: 0.4em;
+}
+.p2 {
+    text-align: center;
+}
+#second {
+    width: 7em;
+    float: left;
+    color: rgb(0, 0, 0);
+    background: rgb(202, 178, 42);
+    padding: 3em;
+    margin: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header,
+nav,
+section {
+    width: 700px;
+    margin: 0 auto;
+
+}
+nav {
+
+    color: #000;
+    padding-top: 30px;
+
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+nav a:hover {
+
+    text-decoration: underline;
+}
+
+hr {
+    width: 500px;
+}
+
+header {
+    height: 150px;
+    padding-top: 50px;
+}
+.p3 {
+    text-align: center;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0 auto;
+}
+.p4 {
+    margin: 50px 240px;
+}
+a:hover {
+    background-color: yellow;
+  }
+  .p5 {
+    background-color: rgb(231, 180, 117);
+  }
+
+  h2:hover {
+      background-color: blueviolet;
+  }
+  div.test {
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden; 
+    border: 1px solid #000000;
+    margin: 5px 240px;
+  }
+  
+  div.test:hover {
+    overflow: visible;
+  }

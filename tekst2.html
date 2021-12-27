@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Uvod</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Tipografija, dizajn, wikipedia">
+    <meta name="description" content="Dizajn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <!--ucitaj css-->
+
+</head>
+
+<body>
+
+    <header>
+
+
+        <h1 class="p1">Interaktivna Tipografija</h1>
+
+        <nav>
+            <ul class="p1">
+                <a href="index.html">Uvod</a>
+
+                <li><a href="tekst1.html">Tekst 1</a>
+
+                    <li><a href="tekst2.html">Tekst 2</a>
+
+               
+
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+    <hr />
+
+    <span>Take a look</span>
+    <div>If you want to know more you have to learn more. If you want to learn more you have to listen, read and do everyhithing that you like and if you want to do that, you have to get Inspired!</div>
+
+   
+        
+        <h2 id="fourth"> <i>Have Fun Learning</i></h2>
+		<p class="p5">Inspiring others is a lovel thing, but being inspired by others is even better. You will feel the freshness and fruitness of live, you will be able to move mountains, better said, you will be able to Be, Do or Have anything that you desire. Its good to know that.</p>
+
+        <p><a class="ex2" href="https://www.abraham-hicks.com/">Here is a link that will lead you to my favorite page on all the internet. It will lead you to Abraham Hicks website where you can buy wonderful books for every age. Have fun!</a></p>
+
+		<h2 class="p2"> Daily Quote - December 27, 2021 </h2>
+
+        <p>
+            -If you make your relationship with your Inner Being your top priority, and you deliberately choose thoughts that allow your alignment, you will consistently offer the greatest advantage to the others with whom you interact. Only when you are aligned with your Source do you have anything to offer another.
+            
+            If your behavior is influenced by your desire to keep another person happy, you will lose your Connection to your Source. And it is not possible for you to be happy unless you are in alignment with your Source. Without that alignment, you have nothing to offer another.
+            
+            Our daily meditation process will help you to consistently release resistance and to come into alignment with the power and clarity and love that is really who-you-are-and then anyone who you hold as your object of attention will benefit.
+            
+            Rather than attempting the impossible task of trying to behave in ways that please others, show them the ease of finding your consistent alignment. You will always find happiness inside your Vortex. And the happiness that they are seeking is inside their Vortex.
+            
+            Excerpted from Getting into the Vortex Guided Meditation CD and User Guide on 11/1/10
+        </p>
+        
+        <p>
+            <i> Our Love,
+            Esther
+            (and Abraham and Jerry) </i>
+        </p>
+
+		<h2><a class="ex1" href="https://youtu.be/bqjL9Ymxmvw">The Origin</a></h2>
+
+		<p>"Once upon a time there was a happy man who loved to spread his happyness everywhere he went. He always had a smile on his face and he always made everyone very happy and excited just by being himself. He was always ready to help and ready to play, he was magnificent human being even though he was different. He was you no mater how much different you are, he was you because you and him are one. He existed and stil does through this story, through you as you keep living the best of your life."</p>
+        
+
+    
+    <p><a class="ex3" href="default.asp">"You are the Creator of your reality."</a></p>
+
+    <button onclick="document.location='https://youtu.be/E7EOjkGVmyo'">Some piano music</button>
+
+
+    <h1>Typewriter</h1>
+
+    <button onclick="typeWriter()">Click me</button>
+
+    <p id="demo"></p>
+
+    <script>
+        var i = 0;
+        var txt = 'Having fun is fun, but having more fun is more fun right?';
+        var speed = 50;
+
+        function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+        }
+    </script>
+
+</body>
+
+</html>
